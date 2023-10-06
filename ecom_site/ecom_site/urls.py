@@ -20,6 +20,8 @@ from core.views import index, contact
 urlpatterns = [
     path('',index, name='index'),
     path("contact/", contact, name='contact'),
+    # path("item/", item, name='item'),
     path("admin/", admin.site.urls),
+
     
 ]
